@@ -1,0 +1,14 @@
+Host
+cbdhrtd93854d5.cluster-czrs8kj4isg7.us-east-1.rds.amazonaws.com
+Database
+dqocasc3m52oc
+User
+u603tpuoo2a5l4
+Port
+5432
+Password
+p9d8f7be88fb7001d4ee7acf1a1fd569a316c9bef8ee77036a1e80a9fbd443aaf
+URI
+postgres://u603tpuoo2a5l4:p9d8f7be88fb7001d4ee7acf1a1fd569a316c9bef8ee77036a1e80a9fbd443aaf@cbdhrtd93854d5.cluster-czrs8kj4isg7.us-east-1.rds.amazonaws.com:5432/dqocasc3m52oc
+Heroku CLI
+heroku pg:psql postgresql-angular-71623 --app sqlengine
