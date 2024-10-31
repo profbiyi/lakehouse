@@ -5,12 +5,12 @@ import random
 from tqdm import tqdm
 
 # PostgreSQL connection details
-DB_HOST = 'cbdhrtd93854d5.cluster-czrs8kj4isg7.us-east-1.rds.amazonaws.com'
-DB_PORT = '5432'
-DB_NAME = 'dqocasc3m52oc'
-DB_USER = 'u603tpuoo2a5l4'
-DB_PASSWORD = 'p9d8f7be88fb7001d4ee7acf1a1fd569a316c9bef8ee77036a1e80a9fbd443aaf'
-DB_SCHEMA = 'sample_schema'
+DB_HOST = ''
+DB_PORT = ''
+DB_NAME = ''
+DB_USER = ''
+DB_PASSWORD = ''
+DB_SCHEMA = ''
 
 # Connect to PostgreSQL
 conn = psycopg2.connect(host=DB_HOST, port=DB_PORT, dbname=DB_NAME, user=DB_USER, password=DB_PASSWORD)
